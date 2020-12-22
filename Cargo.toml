@@ -9,4 +9,4 @@ crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 wasm-bindgen = "0.2"
-wasm-sc-guest = { path="../wasm-sc-guest" }
+wasm-sc-guest = { git="https://github.com/chifflier/wasm-sc-guest" }
